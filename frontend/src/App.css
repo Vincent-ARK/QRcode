@@ -1,0 +1,156 @@
+.App {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px;
+  font-family: Inter, system-ui, sans-serif;
+  color: #1f2937;
+}
+
+h1 {
+  margin-bottom: 18px;
+  font-size: 2rem;
+  letter-spacing: -0.03em;
+}
+
+.create-form {
+  display: grid;
+  grid-template-columns: 1.7fr 1fr auto;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.create-form input,
+.create-form button {
+  padding: 14px 16px;
+  border-radius: 12px;
+  border: 1px solid #d1d5db;
+  font-size: 0.95rem;
+}
+
+.create-form input:focus,
+.create-form button:focus {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+.create-form button {
+  border: none;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.create-form button:hover {
+  background: #1d4ed8;
+}
+
+.message {
+  margin-bottom: 20px;
+  padding: 14px 18px;
+  border-radius: 12px;
+  background: #eff6ff;
+  color: #1d4ed8;
+  border: 1px solid #bfdbfe;
+}
+
+.qr-list {
+  display: grid;
+  gap: 20px;
+}
+
+.qr-item {
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 12px 25px rgba(15, 23, 42, 0.06);
+}
+
+.qr-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.qr-label {
+  margin: 0;
+  color: #6b7280;
+  font-size: 0.85rem;
+}
+
+.qr-value {
+  margin: 8px 0 0;
+  font-size: 0.97rem;
+  line-height: 1.5;
+  word-break: break-all;
+}
+
+.short-url {
+  color: #2563eb;
+}
+
+.qr-image {
+  display: block;
+  margin: 18px 0;
+  max-width: 240px;
+  border: 1px solid #e5e7eb;
+  padding: 12px;
+  border-radius: 18px;
+  background: #fafafa;
+}
+
+.qr-item button,
+.small-button {
+  margin-top: 12px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.small-button {
+  display: inline-block;
+  margin: 8px 0 0;
+  padding: 8px 12px;
+  font-size: 0.85rem;
+}
+
+.qr-item button:hover,
+.small-button:hover {
+  background: #1d4ed8;
+}
+
+.qr-item > div:last-child {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.qr-item input {
+  width: 100%;
+  margin-top: 8px;
+  border: 1px solid #d1d5db;
+}
+
+.qr-item input[type='url'],
+.qr-item input[type='datetime-local'] {
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+
+@media (max-width: 760px) {
+  .create-form,
+  .qr-header {
+    grid-template-columns: 1fr;
+  }
+
+  .qr-image {
+    max-width: 100%;
+  }
+}
