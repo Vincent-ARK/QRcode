@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Dynamic QR Code System
 
 A full-stack application for creating dynamic QR codes with short URLs.
@@ -42,3 +43,6 @@ A full-stack application for creating dynamic QR codes with short URLs.
 2. Start the frontend server
 3. Open the frontend in browser
 4. Create QR codes, edit them, or delete as needed
+=======
+# QRcode
+>>>>>>> 9581dedc568fb9433eb1568b00498bd0539bd6b0
