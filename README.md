@@ -3,6 +3,12 @@
 
 A full-stack application for creating QR Code with short URLs.
 
+## GIF
+<img width="800" height="750" alt="ezgif-82fdf17dab057f1a" src="https://github.com/user-attachments/assets/bd3f03af-f9f5-4c96-9aee-4d809348622b" />
+
+## Image
+<img width="992" height="951" alt="QR_CODE_jpg" src="https://github.com/user-attachments/assets/e393783b-f839-4003-99d0-5bd38da0406a" />
+
 ## Features
 
 - Create short URLs with QR codes
