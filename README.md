@@ -1,7 +1,7 @@
 <<<<<<< HEAD
-# Dynamic QR Code System
+# QR Code Generator
 
-A full-stack application for creating dynamic QR codes with short URLs.
+A full-stack application for creating QR Code with short URLs.
 
 ## Features
 
