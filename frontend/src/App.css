@@ -28,6 +28,16 @@ h1 {
   font-size: 0.95rem;
 }
 
+.date-field {
+  display: grid;
+  gap: 8px;
+}
+
+.date-field label {
+  color: #475569;
+  font-size: 0.9rem;
+}
+
 .create-form input:focus,
 .create-form button:focus {
   outline: 2px solid #2563eb;

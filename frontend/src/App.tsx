@@ -96,7 +96,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Dynamic QR Code System</h1>
+      <h1>QR Code Generator</h1>
       <div className="create-form">
         <input
           type="url"
@@ -104,12 +104,15 @@ function App() {
           value={url}
           onChange={(e) => setUrl(e.target.value)}
         />
-        <input
-          type="datetime-local"
-          placeholder="Expires at (optional)"
-          value={expiresAt}
-          onChange={(e) => setExpiresAt(e.target.value)}
-        />
+        <div className="date-field">
+          <label htmlFor="expiresAt">Set an expiration date (optional)</label>
+          <input
+            id="expiresAt"
+            type="datetime-local"
+            value={expiresAt}
+            onChange={(e) => setExpiresAt(e.target.value)}
+          />
+        </div>
         <button onClick={createQrCode}>Create QR Code</button>
       </div>
       {message && <div className="message">{message}</div>}
